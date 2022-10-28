@@ -1,0 +1,8 @@
+datasources:6e8e275ac7ce4603869329bea04c243e4afea932
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:14bc2b735cf4f895bff75de0c8110f6cc14362cf
+--suite Suites.Csvnopcom
+--suite Suites.Excelnop
+--suite Suites.LoginTest
+--suite Suites.Nopcommerce

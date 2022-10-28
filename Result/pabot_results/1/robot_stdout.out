@@ -1,0 +1,15 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Excelnop                                                               
+==============================================================================
+LoginTestWithExcel using ${username} and ${password}                  | FAIL |
+Test contains no keywords.
+------------------------------------------------------------------------------
+Suites.Excelnop                                                       | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Result\pabot_results\1\output.xml

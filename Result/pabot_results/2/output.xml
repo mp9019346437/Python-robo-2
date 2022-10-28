@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0 (Python 3.10.8 on win32)" generated="20221023 12:07:43.310" rpa="false" schemaversion="3">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="LoginTest" source="C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Testcases\LoginTest.robot">
+<test id="s1-s1-t1" name="LoginTest" line="12">
+<kw name="Open my Browser" library="LoginKeyword">
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221023 12:07:44.003" level="INFO">Opening browser 'headlessFirefox' to base url 'https://admin-demo.nopcommerce.com'.</msg>
+<msg timestamp="20221023 12:07:44.003" level="INFO">Firefox driver log is always forced to to: C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Result\pabot_results\2\geckodriver-1.log</msg>
+<msg timestamp="20221023 12:07:44.023" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221023 12:07:44.023" level="FAIL">WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+</msg>
+<status status="FAIL" starttime="20221023 12:07:44.003" endtime="20221023 12:07:44.030"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20221023 12:07:44.030" endtime="20221023 12:07:44.030"/>
+</kw>
+<status status="FAIL" starttime="20221023 12:07:44.003" endtime="20221023 12:07:44.030"/>
+</kw>
+<kw name="Enter UserName" library="LoginKeyword">
+<arg>${user}</arg>
+<status status="NOT RUN" starttime="20221023 12:07:44.030" endtime="20221023 12:07:44.030"/>
+</kw>
+<kw name="Enter Password" library="LoginKeyword">
+<arg>${pwd}</arg>
+<status status="NOT RUN" starttime="20221023 12:07:44.030" endtime="20221023 12:07:44.030"/>
+</kw>
+<kw name="Click SignIn" library="LoginKeyword">
+<status status="NOT RUN" starttime="20221023 12:07:44.030" endtime="20221023 12:07:44.030"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>7 seconds</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221023 12:07:44.030" endtime="20221023 12:07:44.035"/>
+</kw>
+<kw name="Verify Successful Login" library="LoginKeyword">
+<status status="NOT RUN" starttime="20221023 12:07:44.035" endtime="20221023 12:07:44.035"/>
+</kw>
+<status status="FAIL" starttime="20221023 12:07:44.003" endtime="20221023 12:07:44.035">WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+</status>
+</test>
+<status status="FAIL" starttime="20221023 12:07:43.588" endtime="20221023 12:07:44.035"/>
+</suite>
+<status status="FAIL" starttime="20221023 12:07:43.560" endtime="20221023 12:07:44.035"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="LoginTest">Suites.LoginTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,18 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Csvnopcom                                                              
+==============================================================================
+LoginTestWithCSV using admin@yourstore.com and adm                    | PASS |
+------------------------------------------------------------------------------
+LoginTestWithCSV using adm@yourstore.com and admin                    | PASS |
+------------------------------------------------------------------------------
+LoginTestWithCSV using admin123@yourstore.com and adm                 | PASS |
+------------------------------------------------------------------------------
+Suites.Csvnopcom                                                      | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Result\pabot_results\0\output.xml

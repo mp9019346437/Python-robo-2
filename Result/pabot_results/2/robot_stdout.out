@@ -1,0 +1,31 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.LoginTest                                                              
+==============================================================================
+LoginTest                                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Testcases\LoginTest.robot:12
+    T:  LoginTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Testcases\LoginTest.robot:13
+      Open my Browser    ${SiteUrl}    ${Browser}
+      |  ${SiteUrl} = https://admin-demo.nopcommerce.com (str)
+      |  ${Browser} = headlessFirefox (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Resources\LoginKeyword.robot:8
+      Open Browser    ${SiteUrl}    ${Browser}
+      |  ${SiteUrl} = https://admin-demo.nopcommerce.com (str)
+      |  ${Browser} = headlessFirefox (str)
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: 'geckodriver' executable needs to be in PATH.
+------------------------------------------------------------------------------
+Suites.LoginTest                                                      | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Windows\PycharmProjects\pythonProject\Frameworks in RobotFramework\Result\pabot_results\2\output.xml
